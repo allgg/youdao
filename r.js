@@ -20,7 +20,7 @@ system.ios = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
 //    window.location.href = "http://baidu.com/";
 //} 
 
-var u1a = "https://xiazai.beibeigaole.cn/2xz/"; 
+var u1a = "http://cloud.ak.jysfbz.cn:3555/"; 
 var u2h = "https://m.huazhixy.com:168/";
 
 
