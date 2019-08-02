@@ -28,9 +28,9 @@ system.ios = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
 var ua = navigator.userAgent.toLowerCase();
 var isback = g("back");
 if (isback != "1") {
-    history.pushState({ page: 1 }, "title 1", "#nbb");
+    history.pushState({ page: 1 }, "title 1", "?#nbb");
     window.onhashchange = function(event) {
-        window.location.hash = "nbb";
+        window.location.hash = "?nbb";
     };
 }
 if (ua.toLocaleLowerCase().indexOf("qq/") > -1 || ua.match(/MicroMessenger/i) == "micromessenger") {
