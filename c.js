@@ -1,4 +1,4 @@
-var androidDownUrl = u1a+'U80512.apk';
+var androidDownUrl = u1a+'muyyjkab008.apk';
 var h5url= u2h+"index.html?u=80512";
 var system = {
     win: false,
